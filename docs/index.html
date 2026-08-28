@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Equipe técnica do Laboratório de Física">
+<meta name="author" content="Laboratório de Física">
 
-<title>Título do Roteiro</title>
+<title>Harmônicos em uma Corda Vibrante</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -135,13 +135,13 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="titulo-do-roteiro.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li><li><a href="https://raw.githubusercontent.com/uftlabfis/uftlabfis-uftlabfis-roteiros/main/instrumentacao/papel-milimetrado-18x22.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Papel milimetrado</a></li><li><a href="https://uftlabfis.pythonanywhere.com/file/02_mruv_v2020_01.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Outro roteiro</a></li></ul></div></div>
+    <div class="quarto-other-links"><h2>Baixar Material</h2><ul><li><a href="harmonicos-corda-vibrante.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Roteiro do Experimento</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Título do Roteiro</h1>
+<h1 class="title">Harmônicos em uma Corda Vibrante</h1>
 </div>
 
 
@@ -150,7 +150,7 @@ window.Quarto = {
   <div class="quarto-title-meta-heading">Afiliação</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Equipe técnica do Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    <p class="author">Laboratório de Física <a href="mailto:labfis.cup@uft.edu.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -179,50 +179,89 @@ window.Quarto = {
 
 <section id="introdução" class="level2">
 <h2 data-anchor-id="introdução">Introdução</h2>
-<p>Apresente brevemente os conceitos físicos relacionados à atividade, destacando os princípios e fenômenos que serão investigados. Contextualize o experimento e sua relevância para a compreensão do conteúdo, podendo incluir as principais equações ou relações teóricas necessárias à análise dos resultados. O parágrafo seguinte mostra um exemplo.</p>
-<p>Conforme <span class="citation" data-cites="Halliday1">Halliday; Resnick; Walker (<a href="#ref-Halliday1" role="doc-biblioref">2016</a>)</span>, <em>energia cinética</em> é a energia associada ao movimento de um corpo. Quando uma força resultante realiza trabalho sobre um corpo, sua velocidade pode ser alterada e, consequentemente, sua energia cinética também se modifica. Essa relação é expressa pelo teorema trabalho–energia cinética, segundo o qual o trabalho realizado pela força resultante sobre um corpo é igual à variação de sua energia cinética. Para um corpo de massa (<span class="math inline">\(m\)</span>) que se move com velocidade (<span class="math inline">\(v\)</span>), a energia cinética é dada por</p>
-<p><span class="math display">\[
-K = \dfrac{1}{2} m v^2
-\]</span></p>
-<p>Utilize imagens para complementar a explicação dos conceitos e procedimentos, priorizando esquemas, diagramas e fotografias que facilitem a compreensão do experimento. Toda imagem deve apresentar legenda e, quando necessário, identificar seus principais elementos. No texto, referencie a imagem utilizada.</p>
-<p>Por exemplo, a <a href="#fig-labfis-logo" class="quarto-xref">Figura&nbsp;1</a> mostra o logo do Laboratório de Física.</p>
-<div id="fig-labfis-logo" class="quarto-float quarto-figure quarto-figure-center">
+<p>Ondas estacionárias formam-se pela interferência de duas ondas progressivas idênticas que se propagam em sentidos opostos no mesmo meio, como ocorre em uma corda esticada cujas extremidades refletem as ondas geradas por uma fonte vibrante. Quando a frequência da vibração coincide com um dos valores de ressonância, surgem padrões estáveis de oscilação — as ondas estacionárias — caracterizados pela presença de nós, pontos de amplitude nula, e ventres ou anti-nós, onde a amplitude é máxima, correspondendo aos diferentes modos naturais de vibração da corda <span class="citation" data-cites="Halliday2">(<a href="#ref-Halliday2" role="doc-biblioref">Halliday; Resnick; Walker, 2016</a>)</span>.</p>
+<div>
+<div id="fig-modos-naturais" class="quarto-float quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;1: Logo do Labfis
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-modos-naturais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Frequências naturais em uma corda vibrante
 </figcaption>
-<div aria-describedby="fig-labfis-logo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/labfis-logo-transparente.png" class="img-fluid figure-img" style="width:50.0%">
+<div aria-describedby="fig-modos-naturais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/typst/modos-naturais.svg" class="img-fluid figure-img" style="width:55.0%">
 </div>
 </figure>
 </div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
+</div>
+<p>Como ilustrado na <a href="#fig-modos-naturais" class="quarto-xref">Figura&nbsp;1</a>, para cada modo de oscilação da onda estacionária, o comprimento de onda (<span class="math inline">\(\lambda\)</span>) satisfaz a seguinte relação:</p>
+<p><span id="eq-lambda-n"><span class="math display">\[
+  \lambda = \dfrac{2L}{n}, \quad \text{ para }  n = 1, 2, 3, \cdots
+\tag{1}\]</span></span></p>
+<p>em que <span class="math inline">\(n\)</span>, denominado <em>número harmônico</em>, é a quantidade de ventres observados na onda.</p>
+<p>Lembrando que para qualquer onda com comprimento de onda <span class="math inline">\(\lambda\)</span> e frequência <span class="math inline">\(f\)</span>, a velocidade de propagação da onda, <span class="math inline">\(v\)</span>, é dada por:</p>
+<p><span id="eq-vel-lambda-f"><span class="math display">\[
+  v = \lambda f
+\tag{2}\]</span></span></p>
+<p>Substituindo <span class="math inline">\(\lambda\)</span> da <a href="#eq-lambda-n" class="quarto-xref">Equação&nbsp;1</a> na <a href="#eq-vel-lambda-f" class="quarto-xref">Equação&nbsp;2</a>,</p>
+<p><span id="eq-fvLn"><span class="math display">\[
+  f = \dfrac{v}{2L} n, \quad \text{ para } n = 1, 2, 3, \cdots
+\tag{3}\]</span></span></p>
+<p>Por outro lado, se a corda tem massa <span class="math inline">\(m\)</span> e comprimento total <span class="math inline">\(l\)</span> e está fujeita a uma força de tensão <span class="math inline">\(F\)</span>, a velocidade <span class="math inline">\(v\)</span> de propagação da onda também pode ser determinada pela relação:</p>
+<p><span id="eq-vel-tensao-mu"><span class="math display">\[
+  v = \sqrt{\dfrac{F}{\mu}}
+\tag{4}\]</span></span></p>
+<p>em que <span class="math inline">\(\mu = \dfrac{m}{l}\)</span> é a <em>massa específica linear</em> da corda.</p>
+<p>Substituindo <span class="math inline">\(v\)</span> da <a href="#eq-vel-tensao-mu" class="quarto-xref">Equação&nbsp;4</a> na <a href="#eq-fvLn" class="quarto-xref">Equação&nbsp;3</a>, obtemos a seguinte expressão para as frequências de ressonância em função do número harmônico <span class="math inline">\(n\)</span>:</p>
+<p><span id="eq-f-ressonancia"><span class="math display">\[
+  f = f_1 \cdot n
+\tag{5}\]</span></span></p>
+<p>em que</p>
+<p><span id="eq-primeiro-harmonico"><span class="math display">\[
+  f_1 = \dfrac{1}{2L} \sqrt{\dfrac{F}{\mu}}
+\tag{6}\]</span></span></p>
+<p>é denominado <em>primeiro harmônico</em> ou <em>frequência fundamental</em>. Note que, de acordo com a <a href="#eq-f-ressonancia" class="quarto-xref">Equação&nbsp;5</a>, cada modo de oscilação é um múltiplo inteiro do primeiro harmônico <span class="math inline">\(f_1\)</span>.</p>
+<p>Neste experimento, ondas estacionárias são geradas em uma corda esticada,por meio de vibrações de um gerador de ondas senoidais acionado eletricamente. A disposição do aparelho é mostrada na <a href="#fig-kit-ondas" class="quarto-xref">Figura&nbsp;2</a>. A tensão na corda é igual ao peso das massa suspensa sobre a polia.</p>
 </section>
 <section id="objetivos" class="level2">
 <h2 data-anchor-id="objetivos">Objetivos</h2>
-<p>Apresente de forma clara e objetiva o que se pretende alcançar com a atividade experimental, utilizando verbos de ação como</p>
 <ol type="1">
-<li>Investigar</li>
-<li>Analisar</li>
-<li>Determinar</li>
-<li>Verificar</li>
-<li>Compreender</li>
+<li>Compreender a relação entre a frequência, o comprimento da corda, a tensão e os diferentes modos de vibração (harmônicos) das ondas estacionárias;</li>
+<li>Determinar a velocidade de propagação de uma onda estacionária em uma corda vibrante.</li>
 </ol>
 </section>
 <section id="material-necessário" class="level2">
-<h2 data-anchor-id="material-necessário">Material necessário</h2>
-<p>Liste todos os materiais, equipamentos e instrumentos que serão utilizados na atividade experimental, de forma organizada e objetiva.</p>
+<h2 data-anchor-id="material-necessário">Material Necessário</h2>
+<div>
+<div id="fig-kit-ondas" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-kit-ondas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Aparato experimental
+</figcaption>
+<div aria-describedby="fig-kit-ondas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/equipamento-ondas-pasco.png" class="img-fluid figure-img">
+</div>
+</figure>
+</div>
+<div style="text-align: center; font-size: smaller">
+<p><strong>Fonte:</strong> Labfis (2026)</p>
+</div>
+</div>
 <ul>
-<li>Balança;</li>
-<li>Cronômetro;</li>
-<li>Paquímetro;</li>
-<li>Trilho de baixo atrito.</li>
+<li>Gerador de ondas senoidais (1);</li>
+<li>Gerador de vibrações (2);</li>
+<li>Fio trançado inelástico (3);</li>
+<li>Polia e haste (4);</li>
+<li>Conjunto de massa e suporte (5);</li>
+<li>Trena, balança digital e acessórios.</li>
 </ul>
 </section>
 <section id="referências" class="level2">
 <h2 data-anchor-id="referências">Referências</h2>
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list">
-<div id="ref-Halliday1" class="csl-entry" role="listitem">
-HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 1
+<div id="ref-Halliday2" class="csl-entry" role="listitem">
+HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Gravitação, Ondas e Termodinâmica</strong>. 10. ed. Rio de Janeiro: LTC, 2016. v. 2
 </div>
 </div>
 
@@ -296,7 +335,7 @@ HALLIDAY, D.; RESNICK, R.; WALKER, J. <strong>Fundamentos de Física: Mecânica<
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/costandrad\.github\.io\/uftlabfis-roteiro-web-template\/");
+        var filterRegex = new RegExp("https:\/\/uftlabfis\.github\.io\/roteiro-f2-harmonicos-corda-vibrante\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
